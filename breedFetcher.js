@@ -10,6 +10,6 @@ request(`https://api.thecatapi.co/v1/breeds/search?q=${args}`, (error, response,
       console.log('Breed not found!');
     } else {
       console.log(data[0].description);
-    };
-  };
+    }
+  }
 });
