@@ -12,7 +12,7 @@ const fetchBreedDescription = (breedName, callback) => {
         callback(null, 'Not able to find the breed');
       }
     }
-  })
+  });
 };
 
 module.exports = { fetchBreedDescription };
